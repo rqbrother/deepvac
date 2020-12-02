@@ -13,7 +13,7 @@ def getCurrentGitBranch():
     return branch
 
 def getTime():
-    return (str(datetime.now())[:-10]).replace(' ','-').replace(':','-')
+    return (str(datetime.now())[:-10]).replace(' ','_').replace(':','-')
 
 def getArgv():
     argv = ''.join(sys.argv)

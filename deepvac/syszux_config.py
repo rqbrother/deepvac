@@ -38,7 +38,7 @@ config.num_workers = 3
 ## ------------------- train ------------------
 config.train.batch_size = 128
 config.epoch_num = 30
-#model save number duriong an epoch
+#model save number during an epoch
 config.save_num = 5
 config.milestones = [2,4,6,8,10]
 config.checkpoint_suffix = ''
